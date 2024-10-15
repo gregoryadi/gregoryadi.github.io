@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- set encoding to UTF-8 to support a wide range of characters. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adjust layout based on device's screen size-->
+    <meta name="description" content="Home page of Gregory Adiprawira's portfolio.">
+    <title>Home | Gregory Adiprawira</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Links to font awesome stylesheet for social icons and theme button icon-->
+</head>
+<body>
+    <!-- Navigation Bar on top of the Page -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+        
+        <!-- Toggle Button -->
+        <button class="theme-toggle" data-theme-toggle aria-label="Change to light theme">
+            <i class="fas fa-sun sun-icon"></i>
+            <i class="fas fa-moon moon-icon"></i>
+        </button>
+    </div>
+
+    <div id="home" class="background-image">
+        <h1 id="large-title">Gregory Adiprawira</h1>
+        <h2 id="sub-title">Computer Science @ UC Berkeley</h2>
+        <h3 id="contact-info">Email: gregadiprawira@gmail.com | Phone: +1(415)-601-2071</h3>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/gregoryadi/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/gregoryadii/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/gregadi" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="toggle.js"></script>
+</body>
+</html>
